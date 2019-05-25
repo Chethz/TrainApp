@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainApp", "TrainApp.csproj", "{F53CEDB3-ED7F-4AEE-AE2A-F6C643479EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainApp", "TrainApp.csproj", "{F53CEDB3-ED7F-4AEE-AE2A-F6C643479EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTrainApp.UnitTests", "..\TestTrainApp.UnitTests\TestTrainApp.UnitTests.csproj", "{81B9CAC5-77E1-47EA-A889-8CB302485510}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainAppLibry", "..\TrainAppLibry\TrainAppLibry.csproj", "{22AB00CF-7EC8-4A9C-BE9E-4BC283E8DF26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F53CEDB3-ED7F-4AEE-AE2A-F6C643479EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F53CEDB3-ED7F-4AEE-AE2A-F6C643479EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F53CEDB3-ED7F-4AEE-AE2A-F6C643479EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B9CAC5-77E1-47EA-A889-8CB302485510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B9CAC5-77E1-47EA-A889-8CB302485510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B9CAC5-77E1-47EA-A889-8CB302485510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B9CAC5-77E1-47EA-A889-8CB302485510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22AB00CF-7EC8-4A9C-BE9E-4BC283E8DF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AB00CF-7EC8-4A9C-BE9E-4BC283E8DF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AB00CF-7EC8-4A9C-BE9E-4BC283E8DF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AB00CF-7EC8-4A9C-BE9E-4BC283E8DF26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

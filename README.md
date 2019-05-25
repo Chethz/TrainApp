@@ -1,32 +1,33 @@
 # TrainApp
 
-Project Title
-This project provides oneway rail network which connects number of towns. Application is a console application 
-which provides distance to given destination or route, number of routes customers can reach destination on given 
+Train App
+
+This project provides a oneway rail network which connects number of towns. Application is a console application 
+which provides distance to given destination or route, number of routes customers can reach the destination on given 
 number of stops, shortest route between given starting and end towns and different routes from one starting point 
-to other with less than given distance.
+to another within a given distance.
 
 Getting Started
-Clone or download the repository from git hub. Application butild on .Net version $$$$ and used nUnit framework 
-version$$$ for unit testing.
+Clone or download the repository from git hub. Application built on .Net Core version 2.2 and tested on nUnit framework 
+version$$$.
 
 Prerequisites
-Visual stuio to run application
+Visual studio  (I used Visual Studio Community 2019)
 nUnit for unit testing
 
 Give examples
 
 Running application
 
-The application provides commandline interface for user.
+The application provides commandline interface for the user.
 
 initial setup : option 1
 
 At the begining to setup the rail network please press option 1 to create transport network.
-under option 1 enter routes seperates by commas to create verticies and edges for the rail graph
+under option 1 enter routes seperated by commas to create verticies and edges for the rail graph
 Input template : AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
 To confirm and submit press S.
-Once graph created menu will exit to the main menu without error messages.
+Once graph is created, menu will exit to the main menu without error messages.
 
 Using application
 

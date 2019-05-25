@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Cheth
 {
-    class RailNetwork
+    public class RailNetwork
     {
         //adjacency list
         private List<Town> _RailMap = new List<Town>() ;
@@ -25,7 +25,7 @@ namespace Cheth
         //add destination to the town in the _RailMap list
         //check for null inputs
         //check _RailMap for existing source and destination
-        //        public void AddEdge(Town source, Town destination, int distance)
+        //        public void CreateEdge(Town source, Town destination, int distance)
         //        {
         //            if (source == null || destination == null || distance <= 0)
         //                throw new Exception(ErrorMessages.InvalidInput);
@@ -66,8 +66,8 @@ namespace Cheth
         //Check length of the input string if it < 3 throw error
         //Check first two inputs for letters
         //Check third input for number
-        //pass parameters to the AddEdge function
-        public void AddEdge(string route)
+        //pass parameters to the CreateEdge function
+        public void CreateEdge(string route)
         {
             char[] splitRoute = route.ToCharArray();
             if (splitRoute.Length != 3)

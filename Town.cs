@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Cheth
 {
-    class Town
+    public class Town
     {
         private char _Name;
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cheth
 {
-    class ErrorMessages
+    public class ErrorMessages
     {
         private static string _InvalidInput = "ERROR : Please input valid source, destination and distance";
 

@@ -1,8 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ErrorMessages.cs" />
+    <Compile Remove="Logic.cs" />
+    <Compile Remove="RailNetwork.cs" />
+    <Compile Remove="Route.cs" />
+    <Compile Remove="Town.cs" />
+    <Compile Remove="View.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrainAppLibry\TrainAppLibry.csproj" />
+  </ItemGroup>
 
 </Project>

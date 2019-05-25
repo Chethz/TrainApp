@@ -6,8 +6,8 @@ namespace Cheth
     {
         private static void Main(string[] args)
         {
-            View start = new View();
-            start.mainMenu();
+           View start = new View();
+           start.mainMenu();
         }
     }
 }

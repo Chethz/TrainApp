@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace Cheth
 {
-    class View
+    public class View
     {
         private Logic logic = new Logic();
         public void mainMenu()
@@ -173,7 +173,17 @@ namespace Cheth
 
         private void differentRoutesCtoC()
         {
-
+            Console.WriteLine("Number of different routes from C to C with distance less than 30");
+            try
+            {
+                Console.WriteLine("Number of different routes : {0}",logic.DifferentRoutesCtoCDistanceLessThanThirty());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.WriteLine("Press any key to go back to main menu");
+            Console.ReadKey();
         }
     }
 }
